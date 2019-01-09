@@ -24,11 +24,11 @@
     <!-- file src="x64\Debug\*.pdb"   target="build\native\lib\x64\v141\Debug\Desktop\" /-->
     
     <file src="Win32\Release\*.lib" target="build\native\lib\Win32\Release\" />
-	<file src="Win32\Release\*.pdb" target="build\native\lib\Win32\Release\" />
+	<file src="Win32\Release\cpp_redis.pdb" target="build\native\lib\Win32\Release\" />
 	<file src="..\tacopie\msvc15\Win32\Release\*.pdb"   target="build\native\lib\Win32\Release\" />
 	
     <file src="Win32\Debug\*.lib"   target="build\native\lib\Win32\Debug\" />
-    <file src="Win32\Debug\*.pdb"   target="build\native\lib\Win32\Debug\" />
+    <file src="Win32\Debug\cpp_redis.pdb"   target="build\native\lib\Win32\Debug\" />
     <file src="..\tacopie\msvc15\Win32\Debug\*.pdb"   target="build\native\lib\Win32\Debug\" />
     
     <file src="NugetPackage\configurations.autopkg" target="build\" />
