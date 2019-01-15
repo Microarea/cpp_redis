@@ -64,7 +64,7 @@ namespace cpp_redis {
 
 	typedef struct xclaim_options {
 			std::int64_t Idle;
-			std::time_t *Time;
+			time_t *Time;
 			std::int64_t RetryCount;
 			bool Force;
 			bool JustId;
