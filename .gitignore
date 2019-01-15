@@ -56,3 +56,5 @@ Makefile
 
 # bazel
 bazel-*
+
+msvc15/\.vs/
