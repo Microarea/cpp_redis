@@ -57,4 +57,7 @@ Makefile
 # bazel
 bazel-*
 
-msvc15/\.vs/
+!CoApp.NuGetNativeMSBuildTasks.dll.orig
+
+/msvc15/ma.cpp_redis.dev.1.0.34.nupkg
+/msvc15/.vs/

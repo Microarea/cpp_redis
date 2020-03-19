@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ma.cpp_redis.dev</id>
-    <version>1.0.33</version>
+    <version>1.0.34</version>
     <title>Eze cpp_redis development</title>
     <authors>Microarea</authors>
     <owners>Microarea</owners>
@@ -12,7 +12,7 @@
     <description>Develop branch of cpp_redis libraries</description>
     <summary>Prebuilt cpp_redis library (develoment branch)</summary>
     <releaseNotes />
-    <copyright>Copyright 2018</copyright>
+    <copyright>Copyright 2020</copyright>
     <tags>cpp_redis redis</tags>
   </metadata>
   <files>
@@ -24,12 +24,18 @@
     <!-- file src="x64\Debug\*.pdb"   target="build\native\lib\x64\v141\Debug\Desktop\" /-->
     
     <file src="Win32\Release\*.lib" target="build\native\lib\Win32\Release\" />
+    <file src="x64\Release\*.lib" target="build\native\lib\x64\Release\" />
 	<file src="Win32\Release\cpp_redis.pdb" target="build\native\lib\Win32\Release\" />
+	<file src="x64\Release\cpp_redis.pdb" target="build\native\lib\x64\Release\" />
 	<file src="..\tacopie\msvc15\Win32\Release\*.pdb"   target="build\native\lib\Win32\Release\" />
+	<file src="..\tacopie\msvc15\x64\Release\*.pdb"   target="build\native\lib\x64\Release\" />
 	
     <file src="Win32\Debug\*.lib"   target="build\native\lib\Win32\Debug\" />
+    <file src="x64\Debug\*.lib"   target="build\native\lib\x64\Debug\" />
     <file src="Win32\Debug\cpp_redis.pdb"   target="build\native\lib\Win32\Debug\" />
+    <file src="x64\Debug\cpp_redis.pdb"   target="build\native\lib\x64\Debug\" />
     <file src="..\tacopie\msvc15\Win32\Debug\*.pdb"   target="build\native\lib\Win32\Debug\" />
+    <file src="..\tacopie\msvc15\x64\Debug\*.pdb"   target="build\native\lib\x64\Debug\" />
     
     <file src="NugetPackage\configurations.autopkg" target="build\" />
     <file src="NugetPackage\publisher-info.txt" target="build\" />
