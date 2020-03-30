@@ -61,3 +61,5 @@ bazel-*
 
 /msvc15/ma.cpp_redis.dev.1.0.34.nupkg
 /msvc15/.vs/
+/msvc15/.vs
+/msvc15/ma.cpp_redis.dev.1.0.34.nupkg.sha512
